@@ -8,7 +8,7 @@ export default function ApiTestingPage() {
       <div style={{ maxWidth: '900px', margin: '0 auto', display: 'grid', gap: '2rem' }}>
         <div>
           <Link href="/">
-            <Button variant="secondary">← Back to Dashboard</Button>
+            <Button variant="secondary">Back to Dashboard</Button>
           </Link>
         </div>
 
@@ -30,7 +30,7 @@ export default function ApiTestingPage() {
             <li><strong>Error:</strong> "Unable to load users." if the request fails</li>
           </ul>
           <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '1.5rem', padding: '1rem', background: '#eff6ff', borderRadius: '0.75rem', borderLeft: '4px solid #2563eb' }}>
-            💡 <strong>Testing Note:</strong> Jest tests mock the fetch() call, so tests run without internet. They verify each state (loading, success, error) by mocking the API response.
+            <strong>Testing Note:</strong> Jest tests mock the fetch() call, so tests run without internet. They verify each state (loading, success, error) by mocking the API response.
           </p>
 
           <div style={{ background: '#f8fafc', borderRadius: '0.85rem', padding: '1.5rem' }}>

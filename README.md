@@ -9,7 +9,7 @@ A modern, interactive demonstration of automated testing practices using **Next.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -23,7 +23,7 @@ A modern, interactive demonstration of automated testing practices using **Next.
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **TestLab** is a practical demonstration of how to test React/Next.js applications properly. Instead of just explaining testing theory, it provides a **working, interactive application** where you can:
 
@@ -34,38 +34,38 @@ A modern, interactive demonstration of automated testing practices using **Next.
 5. **Run the full test suite** with Jest
 
 This project is perfect for:
-- 🎓 **Students** learning QA automation
-- 💼 **Developers** building testable React apps
-- 👨‍💼 **Portfolios** demonstrating testing expertise
-- 📚 **Educational projects** on automated testing
+- Students learning QA automation
+- Developers building testable React apps
+- Portfolios demonstrating testing expertise
+- Educational projects on automated testing
 
 ---
 
-## ✨ Features
+## Features
 
 ### Testing Demonstrations
-- ✅ **Unit Testing**: Individual component validation (Button, Card, Input)
-- ✅ **Component Testing**: Widget interactions and state changes
-- ✅ **State Testing**: Form validation and counter logic
-- ✅ **Network Mocking**: Simulated API calls without internet dependency
-- ✅ **Integration Testing**: Multiple components working together
+- Unit Testing: Individual component validation (Button, Card, Input)
+- Component Testing: Widget interactions and state changes
+- State Testing: Form validation and counter logic
+- Network Mocking: Simulated API calls without internet dependency
+- Integration Testing: Multiple components working together
 
 ### Interactive Components
-- 🧮 **Counter**: Increment, decrement, and reset functionality
-- 📋 **Contact Form**: Input validation with real-time error messages
-- 📊 **User Data Component**: API integration demo with loading/error states
-- 🎨 **Reusable UI Components**: Button, Card, Input with accessible patterns
+- Counter: Increment, decrement, and reset functionality
+- Contact Form: Input validation with real-time error messages
+- User Data Component: API integration demo with loading/error states
+- Reusable UI Components: Button, Card, Input with accessible patterns
 
 ### Code Quality
-- 📈 **82%+ Code Coverage**: Comprehensive test suite
-- 🔒 **TypeScript Support**: Type-safe development
-- 🎨 **Claymorphism Design**: Modern, attractive UI
-- ♿ **Accessibility**: Semantic HTML and ARIA attributes
-- 📱 **Responsive**: Works on desktop and mobile
+- 82%+ Code Coverage: Comprehensive test suite
+- TypeScript Support: Type-safe development
+- Claymorphism Design: Modern, attractive UI
+- Accessibility: Semantic HTML and ARIA attributes
+- Responsive: Works on desktop and mobile
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 | Category | Technologies |
 |----------|---------------|
@@ -77,7 +77,7 @@ This project is perfect for:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -107,7 +107,7 @@ This project is perfect for:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sprint11.pd/
@@ -149,7 +149,7 @@ sprint11.pd/
 
 ---
 
-## 🧩 Components
+## Components
 
 ### Button
 Reusable button component with multiple variants.
@@ -180,7 +180,6 @@ Display information in a visually appealing container.
 <Card 
   title="Unit Testing" 
   description="Test components in isolation"
-  icon="🧪"
 />
 ```
 
@@ -244,7 +243,7 @@ Component that fetches and displays user data from API.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 ```bash
@@ -270,9 +269,9 @@ npm test -- --coverage
 ```
 
 ### Test Results
-- **Test Suites**: 6 passed
-- **Tests**: 12 passed
-- **Coverage**: 82%+ overall
+- Test Suites: 6 passed
+- Tests: 12 passed
+- Coverage: 82%+ overall
 
 ### Test Files
 
@@ -320,7 +319,7 @@ it('displays users on successful fetch', async () => {
 
 ---
 
-## 📝 Available Scripts
+## Available Scripts
 
 ```bash
 # Development
@@ -341,21 +340,21 @@ npm run lint         # Run ESLint
 
 ---
 
-## 🎨 Design System
+## Design System
 
 ### Claymorphism Theme
 
 The project uses a modern **claymorphism** design featuring:
-- **Color Palette**: Soft purples (#8b5cf6, #a78bfa) on light backgrounds
-- **Glassmorphism**: Frosted glass effects with backdrop filters
-- **Shadows**: Layered, soft shadows for depth
-- **Gradients**: Smooth color transitions
-- **Rounded Corners**: Organic 2.5rem border-radius
-- **Animations**: Smooth 0.3-0.4s transitions
+- Color Palette: Soft purples (#8b5cf6, #a78bfa) on light backgrounds
+- Glassmorphism: Frosted glass effects with backdrop filters
+- Shadows: Layered, soft shadows for depth
+- Gradients: Smooth color transitions
+- Rounded Corners: Organic 2.5rem border-radius
+- Animations: Smooth 0.3-0.4s transitions
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### GET /api/users
 Returns a list of mock users.
@@ -378,15 +377,15 @@ Returns a list of mock users.
 
 ---
 
-## 📱 Pages
+## Pages
 
-### Homepage (`/`)
+### Homepage (/)
 - Hero section with call-to-actions
 - Testing focus areas showcase
 - Interactive demos (Counter, Contact Form)
 - Project overview and statistics
 
-### API Testing (`/api-testing`)
+### API Testing (/api-testing)
 - UserData component demonstration
 - Loading state visualization
 - Success and error state handling
@@ -394,7 +393,7 @@ Returns a list of mock users.
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy on Vercel (Recommended)
 
@@ -416,7 +415,7 @@ npm start
 
 ---
 
-## 📚 Learn More
+## Learn More
 
 ### Next.js Documentation
 - [Next.js Docs](https://nextjs.org/docs)
@@ -433,7 +432,7 @@ npm start
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 
@@ -445,13 +444,13 @@ Contributions are welcome! To contribute:
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
 ---
 
-## 👨‍💼 About
+## About
 
 **TestLab** was created as a demonstration of professional QA automation practices for modern React applications. It showcases real-world testing patterns and best practices used in production applications.
 
@@ -459,20 +458,17 @@ This project is open source and available under the MIT License.
 
 ---
 
-## 💡 Tips
+## Tips
 
-- **Want to learn testing?** Start with the `Counter.test.tsx` file—it's the simplest example
-- **Need to understand mocking?** Check out `UserData.test.tsx`
-- **Want to extend?** Add new components in `src/components/` and tests in `src/__tests__/`
-- **Having issues?** Make sure Node.js 18+ is installed: `node --version`
+- Want to learn testing? Start with the `Counter.test.tsx` file—it's the simplest example
+- Need to understand mocking? Check out `UserData.test.tsx`
+- Want to extend? Add new components in `src/components/` and tests in `src/__tests__/`
+- Having issues? Make sure Node.js 18+ is installed: `node --version`
 
 ---
 
-<div align="center">
+Made with dedication as an academic QA automation project
 
-**Made with ❤️ as an academic QA automation project**
+[Visit Homepage](http://localhost:3000) | [View on GitHub](https://github.com/yashashv2005-code/sprint11.pd)
 
-[Visit Homepage](http://localhost:3000) • [View on GitHub](https://github.com/yashashv2005-code/sprint11.pd)
-
-</div>
 

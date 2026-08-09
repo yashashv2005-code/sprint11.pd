@@ -16,22 +16,22 @@ const focusAreas = [
   {
     title: 'Unit Testing',
     description: 'Test individual components like Button, Card, and Input in isolation. Each component gets tested independently to ensure it renders correctly and responds to props.',
-    icon: '🧪',
+    icon: '',
   },
   {
     title: 'Component Testing',
     description: 'Test how multiple components work together. Examples: Counter widget incrementing/decrementing, form validation triggering on user input.',
-    icon: '🧩',
+    icon: '',
   },
   {
     title: 'State Testing',
     description: 'Test real user interactions. Use the Counter demo to increment/decrement/reset. Fill the Contact Form to trigger validation messages and success feedback.',
-    icon: '⚙️',
+    icon: '',
   },
   {
     title: 'Network Mocking',
     description: 'Go to /api-testing to see how we simulate API calls. Tests mock network responses without needing an internet connection. No real external API calls.',
-    icon: '🌐',
+    icon: '',
   },
 ];
 
@@ -67,11 +67,11 @@ export default function Home() {
         <div className={styles.heroCard}>
           <h2>What This Site Shows</h2>
           <div style={{ display: 'grid', gap: '0.75rem', marginTop: '1rem', fontSize: '0.95rem', lineHeight: '1.6', color: '#475569' }}>
-            <p>✓ <strong>6 Reusable Components</strong> built and tested</p>
-            <p>✓ <strong>12 Unit & Integration Tests</strong> that pass</p>
-            <p>✓ <strong>80%+ Code Coverage</strong> achieved</p>
-            <p>✓ <strong>Zero External API Calls</strong> in tests (all mocked)</p>
-            <p><em style={{ color: '#64748b' }}>Try the Counter and Form below ↓</em></p>
+            <p>- <strong>6 Reusable Components</strong> built and tested</p>
+            <p>- <strong>12 Unit & Integration Tests</strong> that pass</p>
+            <p>- <strong>80%+ Code Coverage</strong> achieved</p>
+            <p>- <strong>Zero External API Calls</strong> in tests (all mocked)</p>
+            <p><em style={{ color: '#64748b' }}>Try the Counter and Form below</em></p>
           </div>
         </div>
       </section>
@@ -96,12 +96,12 @@ export default function Home() {
         </div>
         <div className={styles.demoGrid}>
           <div className={styles.demoPanel}>
-            <h3 style={{ marginBottom: '1rem' }}>🔢 Counter Component</h3>
+            <h3 style={{ marginBottom: '1rem' }}>Counter Component</h3>
             <p style={{ color: '#475569', marginBottom: '1rem', fontSize: '0.9rem' }}>Click the buttons to change the count. Click Reset to go back to 0. This component's behavior is validated by automated tests.</p>
             <Counter />
           </div>
           <div className={styles.demoPanel}>
-            <h3 style={{ marginBottom: '1rem' }}>📋 Contact Form</h3>
+            <h3 style={{ marginBottom: '1rem' }}>Contact Form</h3>
             <p style={{ color: '#475569', marginBottom: '1rem', fontSize: '0.9rem' }}>Fill this form. Leave fields empty to see validation errors. Enter an invalid email to see email validation. This form logic is tested automatically.</p>
             <ContactForm />
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
             <div style={{ background: 'white', padding: '1rem', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>🧪 Testing Types</h4>
+              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Testing Types</h4>
               <ul style={{ color: '#475569', fontSize: '0.9rem', lineHeight: '1.6', paddingLeft: '1.2rem' }}>
                 <li>Unit Tests (individual components)</li>
                 <li>Component Tests (interactions)</li>
@@ -131,7 +131,7 @@ export default function Home() {
               </ul>
             </div>
             <div style={{ background: 'white', padding: '1rem', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>📊 Technologies Used</h4>
+              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Technologies Used</h4>
               <ul style={{ color: '#475569', fontSize: '0.9rem', lineHeight: '1.6', paddingLeft: '1.2rem' }}>
                 <li>Next.js 16 (React 19)</li>
                 <li>Jest & React Testing Library</li>
@@ -140,7 +140,7 @@ export default function Home() {
               </ul>
             </div>
             <div style={{ background: 'white', padding: '1rem', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>🎯 Key Features</h4>
+              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Key Features</h4>
               <ul style={{ color: '#475569', fontSize: '0.9rem', lineHeight: '1.6', paddingLeft: '1.2rem' }}>
                 <li>6 reusable components</li>
                 <li>12 passing tests</li>
